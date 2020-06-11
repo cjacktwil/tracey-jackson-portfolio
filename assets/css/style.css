@@ -87,6 +87,7 @@ header nav ul li a:hover {
     font-size: 44px;
     text-align: right;
     display: inline-flex;
+    margin-left: 25px;
 }
 
 /*About me section - add photo, style text, make responsive */
@@ -101,27 +102,52 @@ header nav ul li a:hover {
     width: 100%;
 }
 
-.about-img {
-    max-width: 25%;
+.about-me img {
+    width: 25%;
+    float: left;
+    margin: 0 25px 25px 0;
 }
 
-.about-img img {
-
+.about-me h2 {
+    color: var(--primary-color);
+    font-size: 44px;
+    /*float: left;*/
+    /*position: relative;*/
+    /*display: flexbox;*/
+    padding: 0 65px;  
+    align-items: left;
+    background-color: rgba(230, 230, 255, 0.75);
+    z-index: 9999;
 }
+/*.about-img img {
+    float: left;
+    width: 25%;
+}*/
 
-.about-me h3 {
-    color: var(--primary-background-color);
-    display: inline;
-}
-
-.about-me p {
+.about-name {
     color: var(--secondary-color);
+    /*display: inline;*/
+    font-size: 36px;
+    padding-top: 10px;
+    /*margin-top: 25px;*/
+}
+
+.about-text {
+    color: var(--secondary-color);
+    font-size: 24px;
+    padding: 25px;
 }
 
 /* My Work section - create css grid - make responsive - first item larger than rest - other items grow or change color upon hover - add images and links to live applications - include placeholders for remaining slots - need 5-6 slots */
 
 .my-work {
-
+    background-color: var(--primary-background-color);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 
 .my-work h3 {
