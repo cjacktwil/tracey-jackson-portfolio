@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+/*color scheme defined*/
+:root {
+    --primary-color: ;
+    --secondary-color: ;
+    --tertiary-color: ;
+    --primary-background-color: ;
+    --secondary-background-color: ;
+}
+
+/*body style*/
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*header style - make sticky, h1 left-justified, nav items right-justified, use hero image as background to appear transparent, make responsive*/
+
+header {
+
+}
+
+header h1{
+
+}
+
+nav {
+
+}
+
+nav li {
+
+}
+
+/*hero style - need image - make responsive - add subtitle */
+
+.hero {
+
+}
+
+.hero img {
+
+}
+
+.hero h2 {
+
+}
+
+/*About me section - add photo, style text, make responsive */
+
+#about {
+
+}
+
+#about img {
+
+}
+
+#about h3 {
+
+}
+
+#about p {
+
+}
+
+/* My Work section - create css grid - make responsive - first item larger than rest - other items grow or change color upon hover - add images and links to live applications - include placeholders for remaining slots - need 5-6 slots */
+
+.my-work {
+
+}
+
+.my-work h3 {
+
+}
+
+.work-wrapper {
+
+}
+
+.work-container {
+
+}
+
+.work-items {
+
+}
+
+.work-item1 {
+
+}
+
+/*contact section - add icons to different ways to contact me - make responsive */
+
+#contact {
+
+}
+
+#contact ul {
+
+}
+
+#contact ul li {
+
+}
+
+#contact ul li a {
+
+}
+
+/*footer section - minimal, responsive */
+
+footer {
+    
+}
+
