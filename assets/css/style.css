@@ -13,7 +13,7 @@
 /*body style*/
 body {
     margin: 0px;
-    /*padding: 25px;*/
+    padding: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: var(--primary-background-color);
 }
@@ -97,27 +97,32 @@ header nav ul li a:hover {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    /*justify-content: space-between;
+    align-items: center;*/
     width: 100%;
 }
 
 .about-me img {
     width: 25%;
     float: left;
-    margin: 0 25px 25px 0;
+    margin: 25px;
+    border-radius: 15px;
 }
 
 .about-me h2 {
     color: var(--primary-color);
     font-size: 44px;
+    padding-left: 25px;
+    margin-top: 25px;
+    margin-bottom: 0;
     /*float: left;*/
     /*position: relative;*/
     /*display: flexbox;*/
-    padding: 0 65px;  
-    align-items: left;
+    /*padding: 0 65px;*/  
+    /*align-items: left;*/
     background-color: rgba(230, 230, 255, 0.75);
-    z-index: 9999;
+    /*z-index: 9999;*/
+    line-height: 1.5;
 }
 /*.about-img img {
     float: left;
@@ -142,32 +147,75 @@ header nav ul li a:hover {
 
 .my-work {
     background-color: var(--primary-background-color);
+    background-size: cover;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    /*align-items: ;*/
     width: 100%;
+}
+
+.my-work div {
+    width: 100%;
+}
+
+.my-work h2 {
+    color: var(--secondary-color);
+    font-size: 44px;
+    padding-left: 25px;
+    /*float: left;*/
+    position: relative;
+    display: block;
+    padding: 0 auto;  
+    align-items: stretch;
+    background-color: var(--secondary-background-color);
+    /*z-index: 9999;*/
+    line-height: 1.5;
+    width: 100%;
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom: 0;
 }
 
 .my-work h3 {
     color: var(--primary-color);
+    font-size: 24px;
 }
 
-.work-wrapper {
-
+.my-work span {
+    color: var(--tertiary-color);
+    font-size: 18px;
 }
 
 .work-container {
-
+    display: grid;
+    grid-auto-flow: dense;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 200px, 1fr;
+    row-gap: 10px;
+    column-gap: 10px;
+    width: 75%;
+    align-items: right;
+    padding: 25px;
 }
 
 .work-items {
-
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    /*grid-column: span 3;*/
+    text-decoration: none;
+    min-height: 200px;
+    border: 5px solid var(--primary-color);
+    border-radius: 15px;
+    text-align: center;
+    padding: 25px;
 }
 
-.work-item1 {
-
+.work-items:first-child {
+    grid-column: span 2;
+    grid-row: span 4;
 }
 
 /*contact section - add icons to different ways to contact me - make responsive */
