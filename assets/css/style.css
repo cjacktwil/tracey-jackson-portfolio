@@ -137,14 +137,15 @@ header nav ul li a:hover {
     color: var(--secondary-color);
     /*display: inline;*/
     font-size: 36px;
-    padding-top: 10px;
-    /*margin-top: 25px;*/
+    padding: 15px 0;
+    margin: 0;
 }
 
 .about-text {
     color: var(--secondary-color);
-    font-size: 24px;
-    padding: 25px;
+    font-size: 18px;
+    padding: 15px 25px;
+    margin: 0;
 }
 
 /* My Work section - create css grid - make responsive - first item larger than rest - other items grow or change color upon hover - add images and links to live applications - include placeholders for remaining slots - need 5-6 slots */
@@ -206,7 +207,7 @@ header nav ul li a:hover {
 
 .work-items {
     display: flex;
-    align-items: flex-end;
+    /*align-items: ;*/
     justify-content: space-between;
     /*grid-column: span 3;*/
     text-decoration: none;
@@ -214,7 +215,25 @@ header nav ul li a:hover {
     border: 5px solid var(--primary-color);
     border-radius: 15px;
     text-align: center;
-    padding: 25px;
+    padding: 0px;
+    position: relative;
+    justify-content: center;
+}
+
+.work-items div {
+    position: absolute;
+    bottom: 5px;
+    background-color: var(--primary-background-color);
+}
+
+.work-items h3 {
+    display: inline;
+}
+
+.work-item1 {
+    background-image: url("../images/workItem1.png");
+    background-position: top;
+    background-size: cover;
 }
 
 .work-items:hover {
@@ -355,6 +374,10 @@ header h1 {
     font-size: 35px;
 }
 
+.hero h2 {
+    font-size: 36px;
+}
+
 .about-me {
     flex: 0, 75%;
 }
@@ -366,6 +389,15 @@ header h1 {
 .about-me img {
     flex: 0 75%;
     justify-self: center;
+}
+
+.about-name {
+    padding: 0;
+    margin: 15px;
+}
+
+.about-text {
+    font-size: 18px;
 }
 
 .hero h2 {
