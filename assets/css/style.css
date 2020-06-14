@@ -236,6 +236,30 @@ header nav ul li a:hover {
     background-size: cover;
 }
 
+.work-item2 {
+    background-image: url("../images/workItem2.png");
+    background-position: top;
+    background-size: cover;
+}
+
+.work-item3 {
+    background-image: url("../images/workItem3.png");
+    background-position: top;
+    background-size: cover;
+}
+
+.work-item4 {
+    background-image: url("../images/workItem4.jpg");
+    background-position: top;
+    background-size: cover;
+}
+
+.work-item5 {
+    background-image: url("../images/workItem5.jpg");
+    background-position: top;
+    background-size: cover;
+}
+
 .work-items:hover {
     border: 10px solid var(--tertiary-color);
     padding: 5px;
