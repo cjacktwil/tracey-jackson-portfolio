@@ -5,12 +5,18 @@ A showcase of the work of Tracey Jackson, including samples of deployed applicat
 
 ### About Me
 Enjoy a brief overview of my past professional experience and personal interests. (Want to learn more? Check out my [RESUME](./assets/files/tjResume.pdf).
+
+![image](../assets/images/about-me.png)
   
 ### My Work
 In this section, I highlighted some of my favorite deployed applications, including live links.
 
+![image](../assets/images/my-work.png)
+
 ### Let's Chat!
 I'd love to learn more about your full-stack web development needs. Please reach out. I've included my phone, email and LinkedIn information, as well as a link to see all of my work on GitHub.
+
+![image](../assets/images/contact-me.jpg)
 
 ## Contributions
 As placeholders until I deploy enough applications, I downloaded images from [Pixabay](http://pixabay.com) to use for the My Work section. The images are free for use and require no attribution, but I wanted to acknowledge the creators:
