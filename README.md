@@ -3,6 +3,8 @@ A showcase of the work of Tracey Jackson, including samples of deployed applicat
 
 ## Features
 
+[Link to portfolio](https://cjacktwil.github.io/tracey-jackson-portfolio/)
+
 ### About Me
 Enjoy a brief overview of my past professional experience and personal interests. (Want to learn more? Check out my [RESUME](./assets/files/tjResume.pdf).
 
