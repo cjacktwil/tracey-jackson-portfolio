@@ -18,8 +18,7 @@ body {
     background-color: var(--primary-background-color);
 }
 
-/*header style - make sticky, h1 left-justified, nav items right-justified, use hero image as background to appear transparent, make responsive*/
-
+/*header style - h1 left-justified, nav items right-justified, make responsive, add hover effect*/
 header {
   padding: 0px 20px;
   display: flex;
@@ -28,12 +27,6 @@ header {
   flex-wrap: wrap;
   align-items: center;
   background-color: var(--primary-background-color);
-  /*background-attachment: fixed;
-  background-size: cover;
-  background-position: center;*/
-  position: sticky;
-  position: -webkit-sticky;
-
 }
 
 header h1{
@@ -70,39 +63,31 @@ header nav ul li a:hover {
 }
 
 /*hero style - need image - make responsive - add subtitle */
-
 .hero {
     background-image: url("../images/hero.jpg");
     height: 250px;
     background-size: auto;
     background-position: 99%;
     display: block;
-    /*align-items: center;*/
 }
 
 .hero div {
-    /*display: flex;*/
     float: right;
 }
 
 .hero h2 {
     color: var(--secondary-color);
     font-size: 44px;
-    /*justify-items: right;*/
     text-align: right;
-    /*display: flex;*/
     margin-right: 25px;
 }
 
-/*About me section - add photo, style text, make responsive */
-
+/*About me section - include photo, style text, make responsive */
 .about-me {
     background-color: var(--secondary-background-color);
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    /*justify-content: space-between;
-    align-items: center;*/
     width: 100%;
 }
 
@@ -119,23 +104,12 @@ header nav ul li a:hover {
     padding-left: 25px;
     margin-top: 25px;
     margin-bottom: 0;
-    /*float: left;*/
-    /*position: relative;*/
-    /*display: flexbox;*/
-    /*padding: 0 65px;*/  
-    /*align-items: left;*/
     background-color: var(--primary-background-color);
-    /*z-index: 9999;*/
     line-height: 1.5;
 }
-/*.about-img img {
-    float: left;
-    width: 25%;
-}*/
 
 .about-name {
     color: var(--secondary-color);
-    /*display: inline;*/
     font-size: 36px;
     padding: 15px 0;
     margin: 0;
@@ -149,7 +123,6 @@ header nav ul li a:hover {
 }
 
 /* My Work section - create css grid - make responsive - first item larger than rest - other items grow or change color upon hover - add images and links to live applications - include placeholders for remaining slots - need 5-6 slots */
-
 .my-work {
     background-color: var(--primary-background-color);
     background-size: cover;
@@ -157,7 +130,6 @@ header nav ul li a:hover {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-    /*align-items: ;*/
     width: 100%;
 }
 
@@ -169,13 +141,11 @@ header nav ul li a:hover {
     color: var(--secondary-color);
     font-size: 44px;
     padding-left: 25px;
-    /*float: left;*/
     position: relative;
     display: block;
     padding: 0 auto;  
     align-items: stretch;
     background-color:var(--secondary-background-color);
-    /*z-index: 9999;*/
     line-height: 1.5;
     width: 100%;
     text-align: left;
@@ -207,9 +177,7 @@ header nav ul li a:hover {
 
 .work-items {
     display: flex;
-    /*align-items: ;*/
     justify-content: space-between;
-    /*grid-column: span 3;*/
     text-decoration: none;
     min-height: 200px;
     border: 5px solid var(--primary-color);
@@ -270,8 +238,7 @@ header nav ul li a:hover {
     grid-row: span 4;
 }
 
-/*contact section - add icons to different ways to contact me - make responsive */
-
+/*contact section - include phone, email, LinkedIn and GitHub links - open in separate tab - font enlarges upon hover - make responsive */
 .contact {
     background-color: var(--secondary-background-color);
     background-size: cover;
@@ -279,7 +246,6 @@ header nav ul li a:hover {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-    /*align-items: ;*/
     width: 100%;
 }
 
@@ -291,13 +257,12 @@ header nav ul li a:hover {
     color: var(--primary-color);
     font-size: 44px;
     padding-left: 25px;
-    /*float: left;*/
     position: relative;
     display: block;
     padding: 0 auto;  
     align-items: stretch;
     background-color: var(--primary-background-color);
-    z-index: 9999;*/
+    z-index: 9999;
     line-height: 1.5;
     width: 100%;
     text-align: left;
@@ -312,14 +277,23 @@ address a {
     color: var(--secondary-color);
     font-size: 18px;
     text-decoration: none;
-    
 }
-/*footer section - minimal, responsive */
 
+address a:hover {
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.phone:before {
+    content: "phone";
+}
+
+/*footer section - minimal, responsive */
 footer {
     text-align: right;
 }
 
+/*adjustments for smaller screens - 980px or less*/
 @media screen and (max-width: 980px) {
 
 header {
@@ -338,7 +312,6 @@ header {
 }
 
 .about-me {
-    /*width: 100%;*/
     justify-content: center;
     display: flex;
 }
@@ -346,10 +319,6 @@ header {
 .about-me h2 {
     text-align: center;
 }
-/*.about-me div {
-    display: block;
-    justify-content: center;
-}*/
 
 .about-me img {
     width: 50%;
@@ -357,12 +326,9 @@ header {
     float: none;
     justify-content: center;
     margin: 25px auto;
-    /*margin: 25px;
-    border-radius: 15px;*/
 }
 
 .about-name {
-    /*color: var(--secondary-color);*/
     display: flex;
     font-size: 36px;
     padding-top: 0;
@@ -387,7 +353,8 @@ header {
     text-align: center;
 }
 }    
-
+ 
+/*adjustment for smaller screens - 575px or less*/
 @media screen and (max-width: 575px) {
 
 header h1 {

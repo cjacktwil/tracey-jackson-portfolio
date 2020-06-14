@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Tracey Jackson // Web Developer</title>
-  <link rel="stylesheet" href="./assets/css/style.css" />
-</head>
+  <head>
+      <!--add meta data for responsive website, title of page and link to stylesheet-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tracey Jackson // Web Developer</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
 
-<body>
-    <!--nav - sticky header with transparent background - add hover effects-->
+  <body>
+    <!--nav - header with hover effects on nav-->
     <header>
         <h1>Tracey Jackson</h1>
         <nav>
@@ -30,22 +31,21 @@
             </ul>
         </nav>
     </header>
-    <!--hero image-->
+    <!--hero image and subtitle-->
     <section class="hero">
-        <!--add image and subtitle-->
         <div>
             <h2>FINDING BEAUTY OVER EVERY HORIZON</h2>
         </div>  
     </section>
-    <!--about me section - add photo and a few paragraphs about me-->
+    <!--about me section - photo and a few paragraphs about me-->
     <section id="about" class="about-me">
-        <!--add photo and a few brief paragraphs-->
         <div>
+            <!--headline and image-->
             <div>
                 <h2>About Me</h2>
                 <img src="./assets/images/self.jpg" alt="Selfie on the beach with ocean in the background" />
-            <!--<h2 aref="#about">About Me</h2> -->
             </div>
+            <!--name and two short paragraphs about me-->
             <div>
                 <h3 class="about-name">Tracey Jackson</h3>
                 <p class="about-text">
@@ -56,62 +56,59 @@
             </div>
         </div>
     </section>
-    <!--my work section - add screenshots and links to my completed applications-->
+    <!--my work section - screenshots and links to my completed applications; using placeholders until more projects are completed-->
     <section id="work" class="my-work">
         <div>
             <h2>My Work</h2>
         </div>
+        <!--grid to showcase at least 5 examples of my work - each example will change with hover-->
         <div class="work-container">
-                <!--grid to showcase at least 5 examples of my work-->
-                <a href="https://cjacktwil.github.io/run-buddy/" target="_blank" class="work-items work-item1">
-                    <div>
-                        <h3>Run Buddy</h3>
-                        <span>HTML/CSS</span>
-                    </div>
-                </a>
-                <a href="#" class="work-items work-item2">
-                    <div>
-                        <h3>Awesome Project</h3>
-                        <span>JavaScript</span>
-                    </div>
-                </a>
-                <a href="#" class="work-items work-item3">
-                    <div>
-                        <h3>Amazing Project</h3>
-                        <span>TBD</span>
-                    </div>
-                </a>
-                <a href="#" class="work-items work-item4">
-                    <div>
-                        <h3>WOW!</h3>
-                        <span>TBD</span>
-                    </div>
-                </a>
-                <a href="#" class="work-items work-item5">
-                    <div>
-                        <h3>Can't Believe It's Real</h3>
-                        <span>TBD</span>
-                    </div>
-                </a>
-            </div>
+            <!--first example is larger than rest-->
+            <a href="https://cjacktwil.github.io/run-buddy/" target="_blank" class="work-items work-item1">
+                <div>
+                    <h3>Run Buddy</h3>
+                    <span>HTML/CSS</span>
+                </div>
+            </a>
+            <!--remaining examples are placeholders until more projects are deployed-->
+            <a href="#" class="work-items work-item2">
+                <div>
+                    <h3>Awesome Project</h3>
+                    <span>JavaScript</span>
+                </div>
+            </a>
+            <a href="#" class="work-items work-item3">
+                <div>
+                    <h3>Amazing Project</h3>
+                    <span>TBD</span>
+                </div>
+            </a>
+            <a href="#" class="work-items work-item4">
+                <div>
+                    <h3>WOW!</h3>
+                    <span>TBD</span>
+                </div>
+            </a>
+            <a href="#" class="work-items work-item5">
+                <div>
+                    <h3>Can't Believe It's Real</h3>
+                    <span>TBD</span>
+                </div>
+            </a>
         </div>
-        <!--add links and images to at least 5 examples of my work - first one needs to be larger than the rest, all links must work, add transitions so that applications grow or change in color with hover-->
     </section>
-    <!--contact section-->
+    <!--contact section - include phone, email, LinkedIn and GitHub links-->
     <section id="contact" class="contact">
         <div>
-        <!--<div class="chat">-->
             <h2 class="chat">Let's Chat</h2>
-        <!--</div>-->
-        <div>
-        <!--add phone, email, LinkedIn, GitHub-->
-            <address>
-                <a href="tel:16152942378">615.294.2378</a>
-                <a href="mailto:traceyjackson112@gmail.com">traceyjackson112@gmail.com</a>
-                <a href="https://www.linkedin.com/in/tracey-jackson-55b9b650/">LinkedIn</a>
-                <a href="https://github.com/cjacktwil">GitHub</a>
-            </address>
-        </div>
+            <div>
+                <address>
+                    <a href="tel:16152942378" target="_blank">615.294.2378</a>
+                    <a href="mailto:traceyjackson112@gmail.com" target="_blank">traceyjackson112@gmail.com</a>
+                    <a href="https://www.linkedin.com/in/tracey-jackson-55b9b650/" target="_blank">LinkedIn</a>
+                    <a href="https://github.com/cjacktwil" target="_blank">GitHub</a>
+                </address>
+            </div>
         </div>    
     </section>
     <!-- footer section-->
@@ -120,6 +117,5 @@
             &copy: 2020 Tracey Jackson Designs
         </div>
     </footer>
-</body>
-
+  </body>
 </html>
