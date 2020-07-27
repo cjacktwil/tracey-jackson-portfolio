@@ -201,7 +201,7 @@ header nav ul li a:hover {
 .work-item1 {
     background-image: url("../images/workItem1.png");
     background-position: top;
-    background-size: cover;
+    background-size: contain;
 }
 
 .work-item2 {
@@ -217,7 +217,7 @@ header nav ul li a:hover {
 }
 
 .work-item4 {
-    background-image: url("../images/workItem4.jpg");
+    background-image: url("../images/workItem4.png");
     background-position: top;
     background-size: cover;
 }
